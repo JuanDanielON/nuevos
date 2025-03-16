@@ -1,0 +1,58 @@
+@import "./reset.css";
+@import "@fontsource-variable/montserrat";
+
+:root {
+    color-scheme: ligth-dark;
+    --main-color: #62bde7;
+    --bg-color: #141414;
+    --cards: #45434d;
+
+    --button-flat: #3078bb;
+    --button-hover: #7acee0;
+    --button-active: #bcd8f1;
+    --border-color: #c2daf7;
+
+    --text-bold-color: #eceff1;
+    --text-highligth: #fdfdfd;
+
+    --drop-shadow: 0px 4px 4px rgba(252, 248, 248, 0.333);
+
+    --font-montserrat: 'Montserrat Variable', sans-serif;
+
+    /* Darkmode */
+
+}
+
+.dark {
+    --drop-shadow: 0px 4px 4px rgba(223, 209, 209, 0.281);
+    --bg-color: #bbadad;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background: var(--bg-color);
+    font-family: var(--font-montserrat);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100dvh;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: var(--drop-shadow);
+    border-radius: 12px;
+    padding-bottom: 2rem;
+}
