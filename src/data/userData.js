@@ -52,7 +52,7 @@ const userLinks = [
     },
     {
         title: "Envia un correo",
-        link:"jdon.12ocamp@gmail.com",
+        link:"mailto:jdon.12ocamp@gmail.com",
         icon:"ic:outline-mail" 
     },
 ]
