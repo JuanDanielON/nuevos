@@ -33,7 +33,7 @@ const socialLinks = [
   },
   {
     socialName: "Whatsapp",
-    socialUl: "7341449829",
+    socialUl: "https://wa.me/+527341449829",
     socialIcon: "mingcute:whatsapp-fill",
   },
 ];
